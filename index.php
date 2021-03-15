@@ -48,7 +48,7 @@ $castAkira = new Cast('Mitsuo Iwata','Nozomu Sasaki','Tarō Ishida','Mami Koyama
 $akira->addCast($castAkira);
 
 $ghost = new Film('Ghost in the Shell','Mamoru Oshii','Production I.G.',1995);
-$castGhost = new Cast('Atsuko Tanaka','	Akio Ōtsuka','Iemasa Kayumi','Kōichi Yamadera','Tamio Ōki');
+$castGhost = new Cast('Atsuko Tanaka','Akio Ōtsuka','Iemasa Kayumi','Kōichi Yamadera','Tamio Ōki');
 $ghost->addCast($castGhost);
 
 var_dump($incantata);
